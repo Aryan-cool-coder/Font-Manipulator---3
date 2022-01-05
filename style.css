@@ -1,0 +1,36 @@
+body {
+    background-image: url("doodle_background.png");
+    background-size: cover;
+}
+
+.heading {
+    background-color: aliceblue;
+    border: 4px groove goldenrod;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.note {
+    font-size: 20px;
+    color: rgb(31, 133, 31);
+}
+
+
+#foot {
+    line-height: 30px;
+    font-size: 20px;
+    background-color: grey;
+    text-align: center;
+    color: rgb(131, 221, 230);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+canvas {
+        border: 5px groove green;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px grey;
+    }
